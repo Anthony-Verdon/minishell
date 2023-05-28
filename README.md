@@ -12,17 +12,17 @@ This project is part of the third circle of projects of the 42 common core, and 
 
 ## What is handle
 
--display of a prompt showing your location into the tree directory
--working history (up and down arrows)
--execution a command (of course)
--single quotes which prevent interpretion of meta-characters
--single quotes which prevent interpretion of meta-characters except $
--redirections (check the end to see all redirections)
--pipes which connect the output of a command to the input of the next one
--environment variables and their expansion
--$? which expand into the exit status of the last command
--`-ctrl-C`,`ctrl-D`, `ctrl-\` like Bash
--builtins : `echo` with `-n`, `cd`, `pwd`, `export`, `unset`, `env`, `exit`
+- display of a prompt showing your location into the tree directory
+- working history (up and down arrows)
+- execution a command (of course)
+- single quotes which prevent interpretion of meta-characters
+- single quotes which prevent interpretion of meta-characters except $
+- redirections (check the end to see all redirections)
+- pipes which connect the output of a command to the input of the next one
+- environment variables and their expansion
+- $? which expand into the exit status of the last command
+- `-ctrl-C`,`ctrl-D`, `ctrl-\` like Bash
+- builtins : `echo` with `-n`, `cd`, `pwd`, `export`, `unset`, `env`, `exit`
 
 | redirections | behavior |
 | ------------ | -------- |
